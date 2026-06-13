@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"Study.spring.boot.CauTrucChuan.entity","c":"User","l":"User()","u":"%3Cinit%3E()"}];updateSearchResults();

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"Study.spring.boot.CauTrucChuan.entity","l":"User"}];updateSearchResults();
