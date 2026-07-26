@@ -2,11 +2,7 @@ package Study.spring.boot.CauTrucChuan.entity;
 
 import java.math.BigDecimal;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -23,6 +19,8 @@ public class Product {
       private Long id;
       private String name;
       private BigDecimal price;
-      private String category;
-      private String status; 
+      private String status;
+      @ManyToOne
+      @JoinColumn(name="category_id")
+    private Category category;
 }

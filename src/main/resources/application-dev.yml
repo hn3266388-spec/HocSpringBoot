@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=HocBE;encrypt=true;trustServerCertificate=true
+    username: sa
+    password: Password@123
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+minio:
+  bucket: documents

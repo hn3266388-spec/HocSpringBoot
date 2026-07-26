@@ -12,7 +12,7 @@ public record ApiResponse<T>(
     public static <T> ApiResponse<T> success(T result) {
         return new ApiResponse<>(1000, "Success", result);
     }
-    
+
     public static <T> ApiResponse<T> errorListDataMessages(int code, String message, T result) {
         return new ApiResponse<>(code, message, result);
     }
