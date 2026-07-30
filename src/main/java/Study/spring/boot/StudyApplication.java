@@ -11,6 +11,7 @@ import Study.spring.boot.PostConstruct.ConnetionService;
 import Study.spring.boot.Singleton_Prototype.Chef;
 import Study.spring.boot.Singleton_Prototype.Oder;
 @SpringBootApplication(scanBasePackages = "Study.spring.boot")
+
 public class StudyApplication implements CommandLineRunner {
     private final Topho topho1 ;
     @Autowired
